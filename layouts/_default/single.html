@@ -3,7 +3,6 @@
     <header class="post-header">
       <div class="content-titlebar">
         <h1 class ="post-title content-title">{{ .Title }}</h1>
-        {{ partial "languages.html" $ }}
       </div>
       {{- if ne .Type "page" }}
       <div class="post-meta">
