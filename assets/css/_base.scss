@@ -69,6 +69,11 @@ hr {
   background-color: #fff3;
 }
 
+summary {
+  font-weight: 600;
+  cursor: pointer;
+}
+
 ::selection {
   background: rgba($light-color, .25);
 }
