@@ -79,16 +79,7 @@ $link-hover-color: #ffffff;
 
     &:hover {
       background-color: $primary-color;
-      color: $dark-color;
-    }
-  }
-
-  .gt-btn-preview {
-    background-color: $background-color;
-    color: $fore-color;
-    &:hover {
-      background-color: $primary-color;
-      color: $dark-color;
+      color: #FFFFFF;
     }
   }
 
@@ -116,10 +107,11 @@ $link-hover-color: #ffffff;
 
   .gt-popup {
     background: $background-color;
-    box-shadow: #0002 0 10px 10px;
+    box-shadow: #0004 0 0.25em 0.25em;
     border: none;
-    border-radius: 15px;
+    border-radius: 0.25em;
     top: 3.25em;
+    padding: 0.25em 0;
 
     .gt-action {
       &.is--active::before {
@@ -130,7 +122,7 @@ $link-hover-color: #ffffff;
 
   .gt-header-textarea {
     min-height: 3.125em;
-    border-radius: 10px;
+    border-radius: 0.25em;
     border: 0px solid;
     background-color: $background-color;
     color: $fore-color;
@@ -141,7 +133,7 @@ $link-hover-color: #ffffff;
   }
 
   .gt-header-preview {
-    border-radius: 10px;
+    border-radius: 0.25em;
     background-color: $background-color;
   }
 
@@ -157,7 +149,7 @@ $link-hover-color: #ffffff;
     margin-left: 1em;
     padding: 0.625em 1em;
     background-color: $background-color;
-    border-radius: 10px;
+    border-radius: 0.25em;
     &:hover {
       box-shadow: none;
     }
